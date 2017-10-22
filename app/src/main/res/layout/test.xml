@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <!-- <WebView
+         android:id="@+id/id_load_web_site_web_view"
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="1.00" />-->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about" />
+
+    <EditText
+        android:id="@+id/id_test_ed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/account" />
+
+    <EditText
+        android:id="@+id/id_test_ed2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:text="@string/password" />
+
+</LinearLayout>

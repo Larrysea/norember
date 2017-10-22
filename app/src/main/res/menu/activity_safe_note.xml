@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/id_menu_delete"
+        android:icon="@mipmap/ic_delete"
+        android:orderInCategory="100"
+        android:title="@string/category"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/id_menu_category"
+        android:icon="@mipmap/ic_type"
+        android:orderInCategory="100"
+        android:title="@string/category"
+        app:showAsAction="always">
+        <menu>
+
+            <item
+                android:id="@+id/id_menu_category_default"
+                android:orderInCategory="100"
+                android:title="@string/safe_note" />
+            <item
+                android:id="@+id/id_menu_category_database"
+                android:orderInCategory="100"
+                android:title="@string/database" />
+            <item
+                android:id="@+id/id_menu_category_driver_license"
+                android:orderInCategory="100"
+                android:title="@string/driver_license" />
+            <item
+                android:id="@+id/id_menu_category_membercard"
+                android:orderInCategory="100"
+                android:title="@string/member_card" />
+            <item
+                android:id="@+id/id_menu_category_passport"
+                android:orderInCategory="100"
+                android:title="@string/passport" />
+            <item
+                android:id="@+id/id_menu_category_server"
+                android:orderInCategory="100"
+                android:title="@string/server" />
+            <item
+                android:id="@+id/id_menu_category_social_insurance"
+                android:orderInCategory="100"
+                android:title="@string/social_insurance" />
+            <item
+                android:id="@+id/id_menu_category_software_license"
+                android:orderInCategory="100"
+                android:title="@string/soft_ware_license" />
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/id_menu_edit"
+        android:icon="@mipmap/ic_edit"
+        android:orderInCategory="100"
+        android:title="@string/edit"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/id_menu_save"
+        android:icon="@mipmap/ic_check_small"
+        android:orderInCategory="100"
+        android:title="@string/save"
+        app:showAsAction="always" />
+</menu>

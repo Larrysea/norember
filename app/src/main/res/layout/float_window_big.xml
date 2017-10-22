@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/big_window_layout"
+    android:layout_width="300dp"
+    android:layout_height="220dp"
+    android:background="@drawable/bg_select_web_site_float_view"
+    android:elevation="10dp"
+    android:orientation="vertical"
+
+    >
+
+    <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/start_float_window_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:scrollbars="vertical" />
+
+
+    <TextView
+        android:id="@+id/id_close_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/start_float_window_recyclerview"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="@string/close"
+        android:textColor="@color/young_blue_text_color"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/id_register_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/start_float_window_recyclerview"
+        android:layout_gravity="right"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="@string/register"
+        android:textColor="@color/young_blue_text_color"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

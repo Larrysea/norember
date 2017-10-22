@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_layout_setting_open_finger_print_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_generate_ripple_btn"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/id_layout_setting_open_finger_print_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        android:text="@string/open_finger_print_unlock"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_alignLeft="@id/id_layout_setting_open_finger_print_tv"
+        android:layout_below="@id/id_layout_setting_open_finger_print_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/finger_tip"/>
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/id_layout_setting_open_fingerprint_item_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/id_layout_setting_auto_login_item_title_tv" />
+</RelativeLayout>

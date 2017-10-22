@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/id_activity_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/default_style_color"
+        android:elevation="4dp"
+        android:minHeight="?attr/actionBarSize">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@mipmap/arrow_back_white_small" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/select_add_type"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.24"
+        android:gravity="center_vertical">
+
+
+        <RadioButton
+            android:id="@+id/login_infor_web_site_rb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@android:drawable/btn_radio"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/web_site_url" />
+
+
+        <RadioButton
+            android:id="@+id/login_infor_wifi_rb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@android:drawable/btn_radio"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/wifi" />
+
+
+        <RadioButton
+
+            android:id="@+id/login_infor_mail_site_rb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@android:drawable/btn_radio"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/mail" />
+
+        <RadioButton
+            android:id="@+id/login_infor_database_rb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@android:drawable/btn_radio"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/database" />
+
+        <RadioButton
+            android:id="@+id/login_infor_server_rb"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@android:drawable/btn_radio"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/server" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/id_next_setup_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_next_setup_btn"
+        android:elevation="4dp"
+        android:text="@string/next_setup"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

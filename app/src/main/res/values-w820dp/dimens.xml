@@ -1,0 +1,14 @@
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="size_custom_random_1">22dp</dimen>
+    <dimen name="size_custom_random_2">27dp</dimen>
+    <dimen name="size_custom_random_3">19dp</dimen>
+    <dimen name="size_custom_random_4">33dp</dimen>
+    <dimen name="size_custom_random_5">13dp</dimen>
+    <dimen name="main_margin">10dp</dimen>
+    <dimen name="icon_login">120dp</dimen>
+</resources>

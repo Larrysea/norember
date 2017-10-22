@@ -1,0 +1,6 @@
+<script>
+ document.getElementById("u").value = '%u%';
+ document.getElementById("p").value = '%p%';
+ document.getElementById("go").click();
+
+</script>

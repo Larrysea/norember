@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:gravity="center_vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="10dp">
+
+    <ImageView
+        android:id="@+id/id_base_list_item_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_bank_card_small" />
+
+    <TextView
+        android:id="@+id/id_base_list_item_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/id_base_list_item_iv"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="32dp"
+        android:layout_toRightOf="@id/id_base_list_item_iv"
+        android:text="默认密码"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/id_base_list_item_underline"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignLeft="@id/id_base_list_item_tv"
+        android:layout_below="@+id/id_base_list_item_iv"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@color/under_line"
+        />
+
+
+</RelativeLayout>
